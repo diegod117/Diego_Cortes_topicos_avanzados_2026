@@ -1,0 +1,8 @@
+docker-compose up
+
+docker-compose exec oracle-db bash
+
+sqlplus sys/oracle@//localhost:1521/XE as sysdba
+
+SQL> ALTER SESSION SET CONTAINER = XEPDB1;
+SQL> ALTER SESSION SET CURRENT_SCHEMA = curso_topicos;
