@@ -24,7 +24,7 @@ EXCEPTION
 END;
 /
 
--- Prueba
+/*Prueba
 DECLARE
     v_edad NUMBER;
 BEGIN
@@ -35,7 +35,7 @@ EXCEPTION
         DBMS_OUTPUT.PUT_LINE('Error: ' || SQLERRM);
 END;
 /
-
+*/
 -- practico 2 
 
 SET SERVEROUTPUT ON;
